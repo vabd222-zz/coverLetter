@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html>
 <body>
+<style>
+    h1{
+        color: black;
+    }
+</style>
+<div>
+    <h1>Who am I?</h1>
+<ul style="font-size: large;">
+    <li><span style="color:red">Name:</span>  Vaibhav Dhawan (Vab) </li>
+    <li><span style="color:red">Program:</span> Systems Design Engineering</span> at University of Waterloo </li>
+    <li><span style="color:red">Hobbies:</span> Long Distance Running, Stock Market, Neuroscience, Night Sky Watching,Volunteering, travelling and Hiking! </li>
+  <li onmouseout="mouseOut()"  onmouseover="myFunction()"><a href="">My Best Looking Picture:</a></li>
+  <img id="myImg" src="">
+    
 
-<h1>My First Heading</h1>
+    <script>
+        function myFunction(){
 
-<p>My first paragraph.</p>
+            document.getElementById("myImg").src="interview invitation.PNG"
+        }
+
+        function mouseOut(){
+            document.getElementById("myImg").src=""
+        }
+    </script>
+
+    
+</ul>
+
+</div>
+<div>
+    <h1>Recent Independent Projects</h1>
+    <ul  style="font-size: large;">
+        <li>Github:<a href="https://github.com/vabd222">LINK</a>   </li>
+        <li>Sorting Visualizer: <a href="https://sorting-algos-visualizer.herokuapp.com/">LINK</a>  </li>
+        <li>Djitskra Path Finding Visualizer: <a href="https://dijkstra-path-finding-algo.herokuapp.com/">LINK </a> </li>
+        
+        
+    </ul>
+
+</div>
+<div>
+    <h1>Why do I want to work at your wonderful <span style="color:red">STARTUP?</span> </h1>
+    <ul  style="font-size: large;">
+        <li>I am passionate about your mission! (<span style="color:red">Note:</span> Yes, I am using this same cover letter for all the STARTUPS I applied to, but I only applied to a selected few, your the chose one!)   </li>
+        <li>I wanna make more impact at work! </li>
+        <li>I want to take more responsiblity and be held accountable for my decisions!</li>
+        <li>I want to form stronger bonds with people I work with!</li>
+        <li>I want to create something of my own and thus, I want to get the first hand experience!</li>
+        
+        
+    </ul>
+
+
+</div>
+<div>
+    <h1>Why should you interview me?</h1>
+    <ul  style="font-size: large;">
+        <li>I really enjoy working on<span style="color:red"> Hard Problems!</span> </li>
+        <li>I am very passionate about <span style="color:red">technology!</span> </li>
+        <li>I am  <span style="color:red">Fun to Work With, just ask me!</span> </li>
+        <li>I am a <span style="color:red">Fast Learner!</span> </li>
+        <li>I <span style="color:red">will go that extra mile</span> to impress you! </li>
+        <li>I made this eye hurting, but colorful cover letter just so maybe someone sees this and <span style="color:red">gives me a interview!</span> </li>
+    </ul>
+</div>
+
+
 
 </body>
 </html>
